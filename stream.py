@@ -113,7 +113,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def chat_interface():
-    st.title("💬 DutyFree\nGenerate your apolegy/leave letter within 30sec.\n An AI tool for SJCET Students")
+    st.title("💬 DutyFree\nGenerate your apology/leave letter within 30sec.\n An AI tool for SJCET Students")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
